@@ -1,0 +1,10 @@
+Yet another dhcp tester. Emulates sumultanious work (discover-offer-request-ack) of number of DHCP clients.
+
+Requirements:
+ * probably it's linux-only
+ * scapy (pip install scapy)
+
+Could contain code pieces torn of DHCPig (https://github.com/kamorin/DHCPig)
+
+Usage:
+  sudo ./dhcpester.py <NUMBER_OF_CLIENTS_TO_EMULATE>
