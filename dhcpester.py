@@ -77,7 +77,6 @@ class Sender(Thread):
                                         ('requested_addr', self._ip),
                                         'end']))
         sendp(request_packet, verbose=0)
-        time.sleep(1)
         say('Request', self._r_count.next(), 'sent', self.mac)
 
 
